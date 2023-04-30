@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Castoro+Titling&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&family=Roboto:wght@100&family=Rubik&family=Sacramento&display=swap');
+
+
+.banner .banner-content{
+    vertical-align: middle;
+    align-self: center;
+   margin-right: 3rem;
+}
+.banner img{
+    border-radius: 20%;
+    opacity: 0.8;
+    margin-right: 0;
+}
+.banner h1{
+    font-family: 'poppins', cursive;
+    font-weight: 500;
+    margin: 0.4em 0;
+    
+}
+.banner h4,h5{
+    font-weight: 400;
+}
+.para{
+    font-family: 'poppins';
+    word-spacing: 0.1rem;
+
+}
+.tribute{
+    padding-top: 3em;
+}
+.banner p span{
+    font-size: 1.7em;
+    font-family: 'poppins';
+    letter-spacing: 0.1rem;
+}
+@media (max-width:787px) {
+    .tribute{
+        display: none;
+    }
+}
+.img2{
+    box-shadow:  0 0 10px  rgba(0, 0, 0, 0.9);
+}
+.about
+{
+    background: url(images/textbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.about-content{
+    margin-left: 5rem;
+}
+.about-content h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.about-content li{
+    list-style: disc;
+    margin-top: 0.4rem;
+    font-weight: 400;
+
+}
+.logo{
+    height: 35px;
+    border-radius: 50%;
+}
